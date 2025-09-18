@@ -1,21 +1,20 @@
 {
-  "name": "@20i/eslint-config",
+  "name": "@mckelveygreg/eslint-config",
   "version": "4.0.12",
-  "description": "ESLint and Prettier Config for Twenty Ideas",
+  "description": "ESLint and Prettier Config curated by Greg McKelvey",
   "main": "index.js",
   "exports": {
     "./react": "./react.js",
-    "./react-native": "./react-native.js",
     ".": "./index.js",
     "./prettier.config": "./prettier.config.js"
   },
   "type": "module",
   "author": "Greg McKelvey <mckelveygreg@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/twentyideas/eslint-config-20i#readme",
+  "homepage": "https://github.com/mckelveygreg/eslint-config#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/twentyideas/eslint-config-20i.git"
+    "url": "https://github.com/mckelveygreg/eslint-config-mckelveygreg.git"
   },
   "keywords": [
     "typescript",
@@ -34,12 +33,11 @@
     "index.js",
     "eslint.config.js",
     "react.js",
-    "react-native.js",
     "tsconfig.json",
     "prettier.config.js",
     "*.d.ts"
   ],
-  "packageManager": "yarn@4.9.2",
+  "packageManager": "yarn@4.9.4",
   "peerDependencies": {
     "eslint": ">= 9 || < 10",
     "prettier": ">= 3 || < 4",
@@ -60,12 +58,9 @@
     "@eslint/js": "^9.31.0",
     "@types/eslint": "^9.6.1",
     "@types/eslint-plugin-jsx-a11y": "^6.10.0",
-    "@types/eslint__eslintrc": "^3.3.0",
-    "@types/eslint__js": "^9.14.0",
     "@types/is-ci": "^3.0.4",
     "@types/node": "^24.0.15",
     "eslint": "^9.31.0",
-    "eslint-plugin-react-native": "^5.0.0",
     "husky": "^9.1.7",
     "is-ci": "^4.1.0",
     "lint-staged": "^16.1.2",
@@ -78,7 +73,7 @@
   "scripts": {
     "lint": "yarn eslint --max-warnings=0 --cache --fix \"**/*.{js,ts,jsx,tsx}\"",
     "lint:markdown": "markdownlint --config linters/.markdownlint.json README.md */README.md",
-    "postinstall": "is-ci || husky init",
+    "postinstall": "is-ci || husky",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
   },

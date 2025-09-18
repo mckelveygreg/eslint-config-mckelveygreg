@@ -14,7 +14,7 @@ jobs:
         with:
           node-version-file: .nvmrc
           registry-url: "https://registry.npmjs.org"
-          scope: "@20i"
+          scope: "@mckelveygreg"
       - run: corepack enable # act doesn't have yarn preinstalled
       - run: yarn
       - run: yarn npm publish

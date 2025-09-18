@@ -10,9 +10,70 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    commit-message:
+      # Use conventional commits so release-please can compute correct versions
+      prefix: "chore"
+      include: "scope" # yields e.g. chore(deps): bump actions/*
   - package-ecosystem: "npm"
     versioning-strategy: "increase"
     open-pull-requests-limit: 20
     directory: "/"
     schedule:
       interval: "weekly"
+    commit-message:
+      # Runtime deps should trigger patch releases in release-please
+      prefix: "fix" # e.g. fix(deps): bump foo from 1.0.0 to 1.0.1
+      # Dev deps should not trigger releases
+      prefix-development: "chore" # e.g. chore(deps-dev): bump jest from ...
+      include: "scope"
+    # Group related npm dependency updates to reduce PR noise
+    groups:
+      eslint-core:
+        # ESLint core and compat helpers
+        patterns:
+          - "eslint"
+          - "@eslint/*"
+          - "@eslint/js"
+          - "@eslint/compat"
+          - "eslint-*"
+          - "globals"
+
+      eslint-plugins-react:
+        # React specific ESLint plugins
+        patterns:
+          - "eslint-plugin-react"
+          - "eslint-plugin-react-hooks"
+          - "eslint-plugin-jsx-a11y"
+
+      typescript-stack:
+        # TypeScript compiler and ESLint integration
+        patterns:
+          - "typescript"
+          - "typescript-eslint"
+
+      prettier-stack:
+        # Prettier and related ESLint integrations/plugins
+        patterns:
+          - "prettier"
+          - "eslint-config-prettier"
+          - "eslint-plugin-prettier"
+          - "prettier-plugin-*"
+
+      types-definitions:
+        # DefinitelyTyped packages
+        patterns:
+          - "@types/*"
+
+      repo-tooling:
+        # Local repo tooling utilities
+        patterns:
+          - "husky"
+          - "lint-staged"
+          - "pinst"
+          - "is-ci"
+
+      docs-linting:
+        # Markdown linting
+        patterns:
+          - "markdownlint"
+          - "markdownlint-cli"
