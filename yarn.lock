@@ -191,7 +191,7 @@ __metadata:
     eslint: "npm:^9.31.0"
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-jsx-a11y: "npm:^6.10.2"
-    eslint-plugin-prettier: "npm:^5.5.3"
+    eslint-plugin-prettier: "npm:^5.5.4"
     eslint-plugin-react: "npm:^7.37.5"
     eslint-plugin-react-hooks: "npm:5.2.0"
     globals: "npm:^16.3.0"
@@ -202,7 +202,7 @@ __metadata:
     markdownlint-cli: "npm:^0.45.0"
     pinst: "npm:^3.0.0"
     prettier: "npm:^3.6.2"
-    prettier-plugin-organize-imports: "npm:^4.0.0"
+    prettier-plugin-organize-imports: "npm:^4.3.0"
     typescript: "npm:^5.8.3"
     typescript-eslint: "npm:^8.37.0"
   peerDependencies:
@@ -1230,9 +1230,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^5.5.3":
-  version: 5.5.3
-  resolution: "eslint-plugin-prettier@npm:5.5.3"
+"eslint-plugin-prettier@npm:^5.5.4":
+  version: 5.5.4
+  resolution: "eslint-plugin-prettier@npm:5.5.4"
   dependencies:
     prettier-linter-helpers: "npm:^1.0.0"
     synckit: "npm:^0.11.7"
@@ -1246,7 +1246,7 @@ __metadata:
       optional: true
     eslint-config-prettier:
       optional: true
-  checksum: 10/0cdb838997440284145ed1e3cfa1502adffa0e92f893c4100cf2af32dff85fa8f1e86c1547c5462ad8126ee89906a9cb6180b87c4f1ad6000e4b04542938eb3c
+  checksum: 10/5e39e3b7046d4ba0e1111cc2048630ee9d0aa5d5bb00d6230bef56893fdae37cbe2261babfb26db350cc2ad517c81d283b3f8b04cfee4e5aef7cd4bee72f90de
   languageName: node
   linkType: hard
 
@@ -2995,17 +2995,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-organize-imports@npm:^4.0.0":
-  version: 4.1.0
-  resolution: "prettier-plugin-organize-imports@npm:4.1.0"
+"prettier-plugin-organize-imports@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "prettier-plugin-organize-imports@npm:4.3.0"
   peerDependencies:
     prettier: ">=2.0"
     typescript: ">=2.9"
-    vue-tsc: ^2.1.0
+    vue-tsc: ^2.1.0 || 3
   peerDependenciesMeta:
     vue-tsc:
       optional: true
-  checksum: 10/8223af6d42d06f6a5140a2724a6c6c2cef4a2e149721ceb25b945af71f4de7499bc63e47ea003b9eee84e6b94728b59d91b4275d3c53b718a747e273fb30cee2
+  checksum: 10/ca2353d0f7dc1447b84826652a64a96db0c52960f9a9736a4798e5db37dee846b36258050b626bc5abadc00c863f974dd1524dabb989b3db780d88acd01ca04f
   languageName: node
   linkType: hard
 
