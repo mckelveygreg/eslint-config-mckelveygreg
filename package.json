@@ -52,7 +52,7 @@
     "eslint-plugin-react-hooks": "5.2.0",
     "globals": "^16.3.0",
     "prettier-plugin-organize-imports": "^4.3.0",
-    "typescript-eslint": "^8.37.0"
+    "typescript-eslint": "^8.44.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.31.0",
@@ -68,7 +68,7 @@
     "markdownlint-cli": "^0.45.0",
     "pinst": "^3.0.0",
     "prettier": "^3.6.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
   "scripts": {
     "lint": "yarn eslint --max-warnings=0 --cache --fix \"**/*.{js,ts,jsx,tsx}\"",
