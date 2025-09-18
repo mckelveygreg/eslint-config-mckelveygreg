@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/mckelveygreg/eslint-config-mckelveygreg/compare/v1.0.0...v1.0.1) (2025-09-18)
+
+
+### Bug Fixes
+
+* yarn lock got messed up ([158f871](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/158f871ab118fd4bf9bc9d2b02399a9d6bacd10a))
+
 ## 1.0.0 (2025-09-18)
 
 
