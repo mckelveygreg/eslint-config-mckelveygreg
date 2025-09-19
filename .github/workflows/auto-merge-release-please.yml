@@ -1,0 +1,40 @@
+name: Auto-merge Release Please PR
+
+on:
+  schedule:
+    # Runs daily at 03:00 UTC (evening in PT: 8pm PDT / 7pm PST)
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+
+jobs:
+  merge-release-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge release-please PR if present (gh CLI)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          # Find the first open PR with the Release Please label
+          num=$(gh pr list --repo "$REPO" --label "autorelease: pending" --state open --json number --jq '.[0].number' || true)
+          if [[ -z "${num:-}" ]]; then
+            echo "No open release-please PR found."
+            exit 0
+          fi
+          echo "Found candidate PR #$num"
+
+          # Check merge state to avoid noisy failures
+          ms=$(gh pr view "$num" --repo "$REPO" --json mergeStateStatus --jq .mergeStateStatus)
+          echo "mergeStateStatus=$ms"
+          if [[ "$ms" == "CLEAN" || "$ms" == "UNSTABLE" ]]; then
+            echo "Merging PR #$num with squash..."
+            gh pr merge "$num" --repo "$REPO" --squash --delete-branch --yes
+          else
+            echo "PR is not in a mergeable state ($ms). Skipping."
+          fi

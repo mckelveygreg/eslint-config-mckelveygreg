@@ -19,7 +19,7 @@ updates:
     open-pull-requests-limit: 20
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     commit-message:
       # Runtime deps should trigger patch releases in release-please
       prefix: "fix" # e.g. fix(deps): bump foo from 1.0.0 to 1.0.1
