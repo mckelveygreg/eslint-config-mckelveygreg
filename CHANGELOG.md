@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/mckelveygreg/eslint-config-mckelveygreg/compare/v1.0.1...v1.0.2) (2025-09-23)
+
+
+### Bug Fixes
+
+* **deps:** bump the eslint-core group across 1 directory with 3 updates ([#22](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/22)) ([b3588ed](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/b3588ed7e53d436c31ec27078673ac28b431eca9))
+
 ## [1.0.1](https://github.com/mckelveygreg/eslint-config-mckelveygreg/compare/v1.0.0...v1.0.1) (2025-09-18)
 
 
