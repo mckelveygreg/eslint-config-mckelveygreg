@@ -3,7 +3,7 @@ name: Auto-merge Release Please PR
 on:
   schedule:
     # Runs daily at 03:00 UTC (evening in PT: 8pm PDT / 7pm PST)
-    - cron: "0 3 * * *"
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 permissions:
@@ -28,6 +28,9 @@ jobs:
             exit 0
           fi
           echo "Found candidate PR #$num"
+
+          # Approve the PR
+          gh pr review "$num" --repo "$REPO" --approve
 
           # Check merge state to avoid noisy failures
           ms=$(gh pr view "$num" --repo "$REPO" --json mergeStateStatus --jq .mergeStateStatus)
