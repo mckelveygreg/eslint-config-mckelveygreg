@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.2](https://github.com/mckelveygreg/eslint-config-mckelveygreg/compare/v1.0.1...v1.0.2) (2025-12-09)
+
+
+### Bug Fixes
+
+* auto approve release please pr during cron ([860292c](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/860292cb72cdc6423a9cb1830224dbde1df302ef))
+* **deps:** bump eslint-plugin-react-hooks from 5.2.0 to 7.0.1 in the eslint-plugins-react group ([#26](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/26)) ([cacb443](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/cacb443ad864fce6dcc2c7e0ca09537aee9891b2))
+* **deps:** bump js-yaml from 4.1.0 to 4.1.1 ([#33](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/33)) ([9de7e07](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/9de7e070c40956586116f14906df617fcf88bdbf))
+* **deps:** bump the eslint-core group across 1 directory with 3 updates ([#22](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/22)) ([b3588ed](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/b3588ed7e53d436c31ec27078673ac28b431eca9))
+* **deps:** bump the eslint-core group across 1 directory with 4 updates ([#32](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/32)) ([8637937](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/8637937a853bad6385babc6f55e45038cd60ef2c))
+* **deps:** bump the typescript-stack group across 1 directory with 2 updates ([#25](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/25)) ([fa73c8a](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/fa73c8af3a67a9b275ebe744a2b52c53b6e20649))
+* remove deprecated options ([916cb0a](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/916cb0a1ee501b1e1af843586575891603df94e2))
+* removed hallucinated cli flag ([c01fd1f](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/c01fd1f74cd1520e15a17a6bb252ca57407e64f9))
+
 ## [1.0.1](https://github.com/mckelveygreg/eslint-config-mckelveygreg/compare/v1.0.0...v1.0.1) (2025-09-18)
 
 
