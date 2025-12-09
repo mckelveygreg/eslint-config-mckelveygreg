@@ -37,7 +37,7 @@ jobs:
           echo "mergeStateStatus=$ms"
           if [[ "$ms" == "CLEAN" || "$ms" == "UNSTABLE" ]]; then
             echo "Merging PR #$num with squash..."
-            gh pr merge "$num" --repo "$REPO" --squash --delete-branch --yes
+            gh pr merge "$num" --repo "$REPO" --squash --delete-branch
           else
             echo "PR is not in a mergeable state ($ms). Skipping."
           fi
