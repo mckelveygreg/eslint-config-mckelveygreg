@@ -2,10 +2,11 @@
 
 import eslint from "@eslint/js"
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
+import { defineConfig } from "eslint/config"
 import globals from "globals"
 import tsEslint from "typescript-eslint"
 
-export default tsEslint.config(
+export default defineConfig(
   eslint.configs.recommended,
   ...tsEslint.configs.strictTypeChecked,
   ...tsEslint.configs.stylisticTypeChecked,
@@ -66,7 +67,7 @@ export default tsEslint.config(
         ...globals.node,
       },
       parserOptions: {
-        project: true,
+        projectService: true,
       },
     },
   }
