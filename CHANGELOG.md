@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.3](https://github.com/mckelveygreg/eslint-config-mckelveygreg/compare/v1.0.2...v1.0.3) (2025-12-23)
+
+
+### Bug Fixes
+
+* **deps:** bump typescript-eslint in the typescript-stack group ([#40](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/40)) ([138c5de](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/138c5de95de7c33a023926bcc7942e36e7dd0f80))
+* **deps:** bump typescript-eslint in the typescript-stack group ([#41](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/41)) ([7a7df64](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/7a7df64e04d48dca5352645c398e69906deff5cf))
+
 ## [1.0.2](https://github.com/mckelveygreg/eslint-config-mckelveygreg/compare/v1.0.1...v1.0.2) (2025-12-09)
 
 
