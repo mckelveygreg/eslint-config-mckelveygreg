@@ -67,7 +67,7 @@
     "markdownlint": "^0.40.0",
     "markdownlint-cli": "^0.47.0",
     "pinst": "^3.0.0",
-    "prettier": "^3.8.0",
+    "prettier": "^3.8.1",
     "typescript": "^5.9.3"
   },
   "scripts": {
