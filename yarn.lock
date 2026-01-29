@@ -430,7 +430,7 @@ __metadata:
     "@types/eslint": "npm:^9.6.1"
     "@types/eslint-plugin-jsx-a11y": "npm:^6.10.1"
     "@types/is-ci": "npm:^3.0.4"
-    "@types/node": "npm:^25.0.10"
+    "@types/node": "npm:^25.1.0"
     eslint: "npm:^9.39.2"
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-jsx-a11y: "npm:^6.10.2"
@@ -527,12 +527,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^25.0.10":
-  version: 25.0.10
-  resolution: "@types/node@npm:25.0.10"
+"@types/node@npm:^25.1.0":
+  version: 25.1.0
+  resolution: "@types/node@npm:25.1.0"
   dependencies:
     undici-types: "npm:~7.16.0"
-  checksum: 10/e5fc1fe0e585957f91ff3ad8ee01b051ce0c9da9658c5ba68d11d557522450783ab61ac2778355e8f566b83bc3bd18e78576569162e9729ed52af36999f81c9a
+  checksum: 10/ad15db75cfaec9e6311a1db7f3a91799be4c2698e1cfb0f74cc4d6e4398361550d00a4070921e1de7d9a10db83e41fd29f3a640dfacdabbd1c74ae16d8ce943a
   languageName: node
   linkType: hard
 
