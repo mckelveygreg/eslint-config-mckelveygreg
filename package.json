@@ -1,6 +1,6 @@
 {
   "name": "@mckelveygreg/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint and Prettier Config curated by Greg McKelvey",
   "main": "index.js",
   "exports": {
