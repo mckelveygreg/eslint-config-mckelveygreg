@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.0.4](https://github.com/mckelveygreg/eslint-config-mckelveygreg/compare/v1.0.3...v1.0.4) (2026-02-19)
+
+
+### Bug Fixes
+
+* **deps:** bump the eslint-core group across 1 directory with 4 updates ([#61](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/61)) ([1bfb74f](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/1bfb74ffc20aadec3bffbccb02a4563f699401e3))
+* **deps:** bump the prettier-stack group with 2 updates ([#51](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/51)) ([05ac903](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/05ac903df42e9d04fbe8a52e69f22cbe6c87050d))
+* **deps:** bump typescript-eslint in the typescript-stack group ([#43](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/43)) ([3dd98c3](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/3dd98c3b2fb03ab6639a8b68b41459c17d57717d))
+* **deps:** bump typescript-eslint in the typescript-stack group ([#45](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/45)) ([cb89999](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/cb89999ec226855f477f5d88189fa3b566a56a77))
+* **deps:** bump typescript-eslint in the typescript-stack group ([#48](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/48)) ([d3a6073](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/d3a60738e2d098006ada1e8e03138a67e050e6e4))
+* **deps:** bump typescript-eslint in the typescript-stack group ([#53](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/53)) ([9ded64e](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/9ded64e87b81a16facc9b2a6ef83975600961243))
+* **deps:** bump typescript-eslint in the typescript-stack group ([#56](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/56)) ([80e1caf](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/80e1cafae0bf25e43f7227408f393486770a55cd))
+* **deps:** bump typescript-eslint in the typescript-stack group ([#62](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/62)) ([631f824](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/631f824ba65a597bfd0d9c1639796171f3801504))
+* **deps:** bump typescript-eslint in the typescript-stack group ([#64](https://github.com/mckelveygreg/eslint-config-mckelveygreg/issues/64)) ([f553bd4](https://github.com/mckelveygreg/eslint-config-mckelveygreg/commit/f553bd4af8b644119043f495469754018bc1054e))
+
 ## [1.0.3](https://github.com/mckelveygreg/eslint-config-mckelveygreg/compare/v1.0.2...v1.0.3) (2025-12-23)
 
 
