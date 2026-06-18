@@ -475,7 +475,7 @@ __metadata:
     is-ci: "npm:^4.1.0"
     lint-staged: "npm:^16.4.0"
     markdownlint: "npm:^0.41.0"
-    markdownlint-cli: "npm:^0.48.0"
+    markdownlint-cli: "npm:^0.49.0"
     pinst: "npm:^3.0.0"
     prettier: "npm:^3.8.4"
     prettier-plugin-organize-imports: "npm:^4.3.0"
@@ -993,6 +993,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"brace-expansion@npm:^5.0.5":
+  version: 5.0.6
+  resolution: "brace-expansion@npm:5.0.6"
+  dependencies:
+    balanced-match: "npm:^4.0.2"
+  checksum: 10/a7acf120fefa79e9d7c9c92898114f57c07596a3920197f3c5917e6a628b04220a5f7f9618c30bdd973a6576a32113b99f9c3f1c8245ccc399dd2a9a718d81d8
+  languageName: node
+  linkType: hard
+
 "browserslist@npm:^4.24.0":
   version: 4.28.1
   resolution: "browserslist@npm:4.28.1"
@@ -1141,7 +1150,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^14.0.3, commander@npm:~14.0.3":
+"commander@npm:^14.0.3":
   version: 14.0.3
   resolution: "commander@npm:14.0.3"
   checksum: 10/dfa9ebe2a433d277de5cb0252d23b10a543d245d892db858d23b516336a835c50fd4f52bee4cd13c705cc8acb6f03dc632c73dd806f7d06d3353eb09953dd17a
@@ -1152,6 +1161,13 @@ __metadata:
   version: 8.3.0
   resolution: "commander@npm:8.3.0"
   checksum: 10/6b7b5d334483ce24bd73c5dac2eab901a7dbb25fd983ea24a1eeac6e7166bb1967f641546e8abf1920afbde86a45fbfe5812fbc69d0dc451bb45ca416a12a3a3
+  languageName: node
+  linkType: hard
+
+"commander@npm:~15.0.0":
+  version: 15.0.0
+  resolution: "commander@npm:15.0.0"
+  checksum: 10/a5dab1f5c3f1bf2ea19e8089f650f7fb65c3ed88e13ddde62e490d34b20057bcb2cd3de5b6ddc8aae93286083f8256ca0b812df842f574cbebe0e40f5b2f98f7
   languageName: node
   linkType: hard
 
@@ -2463,7 +2479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^4.1.0, js-yaml@npm:~4.1.1":
+"js-yaml@npm:^4.1.0":
   version: 4.1.1
   resolution: "js-yaml@npm:4.1.1"
   dependencies:
@@ -2471,6 +2487,17 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: 10/a52d0519f0f4ef5b4adc1cde466cb54c50d56e2b4a983b9d5c9c0f2f99462047007a6274d7e95617a21d3c91fde3ee6115536ed70991cd645ba8521058b78f77
+  languageName: node
+  linkType: hard
+
+"js-yaml@npm:~4.2.0":
+  version: 4.2.0
+  resolution: "js-yaml@npm:4.2.0"
+  dependencies:
+    argparse: "npm:^2.0.1"
+  bin:
+    js-yaml: bin/js-yaml.js
+  checksum: 10/51de2067a2b44b07ba5206132e56005f8b568ff279bb4d2f645068958c56fa4827d40a6841c983234671fa0a134bf094d0b0717873c2a3d319185297af145a6d
   languageName: node
   linkType: hard
 
@@ -2585,12 +2612,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"linkify-it@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "linkify-it@npm:5.0.0"
+"linkify-it@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "linkify-it@npm:5.0.1"
   dependencies:
     uc.micro: "npm:^2.0.0"
-  checksum: 10/ef3b7609dda6ec0c0be8a7b879cea195f0d36387b0011660cd6711bba0ad82137f59b458b7e703ec74f11d88e7c1328e2ad9b855a8500c0ded67461a8c4519e6
+  checksum: 10/47933d11cda495fd31e3bb3c086358305362f4413ffa289500d1e48164acb221b3be6bde6404b86dba93b7fe701c95f318bee285f7613092cd7f28a9e97261e7
   languageName: node
   linkType: hard
 
@@ -2673,45 +2700,45 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it@npm:~14.1.1":
-  version: 14.1.1
-  resolution: "markdown-it@npm:14.1.1"
+"markdown-it@npm:~14.2.0":
+  version: 14.2.0
+  resolution: "markdown-it@npm:14.2.0"
   dependencies:
     argparse: "npm:^2.0.1"
     entities: "npm:^4.4.0"
-    linkify-it: "npm:^5.0.0"
+    linkify-it: "npm:^5.0.1"
     mdurl: "npm:^2.0.0"
     punycode.js: "npm:^2.3.1"
     uc.micro: "npm:^2.1.0"
   bin:
     markdown-it: bin/markdown-it.mjs
-  checksum: 10/088822c8aa9346ba4af6a205f6ee0f4baae55e3314f040dc5c28c897d57d0f979840c71872b3582a6a6e572d8c851c54e323c82f4559011dfa2e96224fc20fc2
+  checksum: 10/f5cdb7ca9c8115114137201590b2697ee6ca69d2d4701a0313696629d5de4022525eedcad31800263c70f04dfba0a8eae835b6aa84b65e94ae32d63d04e66211
   languageName: node
   linkType: hard
 
-"markdownlint-cli@npm:^0.48.0":
-  version: 0.48.0
-  resolution: "markdownlint-cli@npm:0.48.0"
+"markdownlint-cli@npm:^0.49.0":
+  version: 0.49.0
+  resolution: "markdownlint-cli@npm:0.49.0"
   dependencies:
-    commander: "npm:~14.0.3"
+    commander: "npm:~15.0.0"
     deep-extend: "npm:~0.6.0"
     ignore: "npm:~7.0.5"
-    js-yaml: "npm:~4.1.1"
+    js-yaml: "npm:~4.2.0"
     jsonc-parser: "npm:~3.3.1"
     jsonpointer: "npm:~5.0.1"
-    markdown-it: "npm:~14.1.1"
-    markdownlint: "npm:~0.40.0"
-    minimatch: "npm:~10.2.4"
+    markdown-it: "npm:~14.2.0"
+    markdownlint: "npm:~0.41.0"
+    minimatch: "npm:~10.2.5"
     run-con: "npm:~1.3.2"
-    smol-toml: "npm:~1.6.0"
-    tinyglobby: "npm:~0.2.15"
+    smol-toml: "npm:~1.6.1"
+    tinyglobby: "npm:~0.2.17"
   bin:
     markdownlint: markdownlint.js
-  checksum: 10/5968b47165b74a24f7d65048abdeb3bbb08d2137009526faa45289145fec2517c0bc04ae98f09885d1aad277c75dfc4004f22908611add89a611c82d910833b7
+  checksum: 10/bd8d8e3da3f0fb2e47a8f7e24443852b7c24cf6c430436b31555d5c54d97aa143f2bb10d9cd71a2ee3f5fb5522ce89bf44b2917565e0a51cdbd6d29c81633ae1
   languageName: node
   linkType: hard
 
-"markdownlint@npm:^0.41.0":
+"markdownlint@npm:^0.41.0, markdownlint@npm:~0.41.0":
   version: 0.41.0
   resolution: "markdownlint@npm:0.41.0"
   dependencies:
@@ -2725,23 +2752,6 @@ __metadata:
     micromark-util-types: "npm:2.0.2"
     string-width: "npm:8.2.1"
   checksum: 10/a815d0405fb9659dda9c7eabea7da8c27980a241f967e5f46f8110411a4cff89bb42f3d0bc17661f1beac1e563986943811642c753ffd9ec642348d5b698b2ec
-  languageName: node
-  linkType: hard
-
-"markdownlint@npm:~0.40.0":
-  version: 0.40.0
-  resolution: "markdownlint@npm:0.40.0"
-  dependencies:
-    micromark: "npm:4.0.2"
-    micromark-core-commonmark: "npm:2.0.3"
-    micromark-extension-directive: "npm:4.0.0"
-    micromark-extension-gfm-autolink-literal: "npm:2.1.0"
-    micromark-extension-gfm-footnote: "npm:2.1.0"
-    micromark-extension-gfm-table: "npm:2.1.1"
-    micromark-extension-math: "npm:3.1.0"
-    micromark-util-types: "npm:2.0.2"
-    string-width: "npm:8.1.0"
-  checksum: 10/f487c9ab083e1f3699a16f934cf8134e8583135cadb29fe460ec5128a35a72fc6a4be8ddc967e10f2c4ea56439704a419231208d028eaf21b478c5b8623d2e20
   languageName: node
   linkType: hard
 
@@ -3070,7 +3080,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^10.2.4, minimatch@npm:~10.2.4":
+"minimatch@npm:^10.2.4":
   version: 10.2.4
   resolution: "minimatch@npm:10.2.4"
   dependencies:
@@ -3085,6 +3095,15 @@ __metadata:
   dependencies:
     brace-expansion: "npm:^1.1.7"
   checksum: 10/b11a7ee5773cd34c1a0c8436cdbe910901018fb4b6cb47aa508a18d567f6efd2148507959e35fba798389b161b8604a2d704ccef751ea36bd4582f9852b7d63f
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:~10.2.5":
+  version: 10.2.5
+  resolution: "minimatch@npm:10.2.5"
+  dependencies:
+    brace-expansion: "npm:^5.0.5"
+  checksum: 10/19e87a931aff60ee7b9d80f39f817b8bfc54f61f8356ee3549fbf636dbccacacfec8d803eac73293955c4527cd085247dfc064bce4a5e349f8f3b85e2bf5da0f
   languageName: node
   linkType: hard
 
@@ -3291,7 +3310,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^4.0.3":
+"picomatch@npm:^4.0.3, picomatch@npm:^4.0.4":
   version: 4.0.4
   resolution: "picomatch@npm:4.0.4"
   checksum: 10/f6ef80a3590827ce20378ae110ac78209cc4f74d39236370f1780f957b7ee41c12acde0e4651b90f39983506fd2f5e449994716f516db2e9752924aff8de93ce
@@ -3649,10 +3668,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"smol-toml@npm:~1.6.0":
-  version: 1.6.0
-  resolution: "smol-toml@npm:1.6.0"
-  checksum: 10/965315168134bdcc410cda1b71a5e79cb72efd4891584a4cfb1430795437f83ed3bfc40c36dede94023682d2f9aac3b6d52d191036ffc474692da68c4a2292c8
+"smol-toml@npm:~1.6.1":
+  version: 1.6.1
+  resolution: "smol-toml@npm:1.6.1"
+  checksum: 10/9a0d86cc7f8abef429c915b373b9a1f369fe57a87efbbec46b967fb41dc28af753a2fa62c9c4848907c3b47c282be15c8854aa4e2942ef1fa86ff95a76d13856
   languageName: node
   linkType: hard
 
@@ -3660,16 +3679,6 @@ __metadata:
   version: 0.3.2
   resolution: "string-argv@npm:0.3.2"
   checksum: 10/f9d3addf887026b4b5f997a271149e93bf71efc8692e7dc0816e8807f960b18bcb9787b45beedf0f97ff459575ee389af3f189d8b649834cac602f2e857e75af
-  languageName: node
-  linkType: hard
-
-"string-width@npm:8.1.0, string-width@npm:^8.0.0":
-  version: 8.1.0
-  resolution: "string-width@npm:8.1.0"
-  dependencies:
-    get-east-asian-width: "npm:^1.3.0"
-    strip-ansi: "npm:^7.1.0"
-  checksum: 10/51ee97c4ffee7b94f8a2ee785fac14f81ec9809b9fcec9a4db44e25c717c263af0cc4387c111aef76195c0718dc43766f3678c07fb542294fb0244f7bfbde883
   languageName: node
   linkType: hard
 
@@ -3691,6 +3700,16 @@ __metadata:
     get-east-asian-width: "npm:^1.0.0"
     strip-ansi: "npm:^7.1.0"
   checksum: 10/a183573fe7209e0d294f661846d33f8caf72aa86d983e5b48a0ed45ab15bcccb02c6f0344b58b571988871105457137b8207855ea536827dbc4a376a0f31bf8f
+  languageName: node
+  linkType: hard
+
+"string-width@npm:^8.0.0":
+  version: 8.1.0
+  resolution: "string-width@npm:8.1.0"
+  dependencies:
+    get-east-asian-width: "npm:^1.3.0"
+    strip-ansi: "npm:^7.1.0"
+  checksum: 10/51ee97c4ffee7b94f8a2ee785fac14f81ec9809b9fcec9a4db44e25c717c263af0cc4387c111aef76195c0718dc43766f3678c07fb542294fb0244f7bfbde883
   languageName: node
   linkType: hard
 
@@ -3831,13 +3850,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyglobby@npm:^0.2.15, tinyglobby@npm:~0.2.15":
+"tinyglobby@npm:^0.2.15":
   version: 0.2.15
   resolution: "tinyglobby@npm:0.2.15"
   dependencies:
     fdir: "npm:^6.5.0"
     picomatch: "npm:^4.0.3"
   checksum: 10/d72bd826a8b0fa5fa3929e7fe5ba48fceb2ae495df3a231b6c5408cd7d8c00b58ab5a9c2a76ba56a62ee9b5e083626f1f33599734bed1ffc4b792406408f0ca2
+  languageName: node
+  linkType: hard
+
+"tinyglobby@npm:~0.2.17":
+  version: 0.2.17
+  resolution: "tinyglobby@npm:0.2.17"
+  dependencies:
+    fdir: "npm:^6.5.0"
+    picomatch: "npm:^4.0.4"
+  checksum: 10/f85e8a217d675c3f78d5f0ad25ea4557e7e023ed13ddc2b014da10bd0312eea53a34cd52356af07ccdff777f1243012547656282a4ca70936f68bf5065fbaa71
   languageName: node
   linkType: hard
 
