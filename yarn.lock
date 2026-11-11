@@ -567,7 +567,7 @@ __metadata:
     husky: "npm:^9.1.7"
     is-ci: "npm:^4.1.0"
     lint-staged: "npm:^16.4.0"
-    markdownlint: "npm:^0.42.0"
+    markdownlint: "npm:^0.42.1"
     markdownlint-cli: "npm:^0.50.0"
     pinst: "npm:^3.0.0"
     prettier: "npm:^3.9.10"
@@ -2917,7 +2917,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:^0.42.0, markdownlint@npm:~0.42.0":
+"markdownlint@npm:^0.42.1":
+  version: 0.42.1
+  resolution: "markdownlint@npm:0.42.1"
+  dependencies:
+    micromark: "npm:4.0.3"
+    micromark-core-commonmark: "npm:2.0.4"
+    micromark-extension-directive: "npm:4.0.0"
+    micromark-extension-gfm-autolink-literal: "npm:2.1.0"
+    micromark-extension-gfm-footnote: "npm:2.1.0"
+    micromark-extension-gfm-table: "npm:2.1.2"
+    micromark-extension-math: "npm:3.1.0"
+    micromark-util-types: "npm:2.0.3"
+    re2js: "npm:2.9.1"
+    string-width: "npm:8.3.0"
+  checksum: 10/64f2001133457ba93189814becc40bd1edf73809159872c8bd6d1445cb9682f96422736331df67e213240682fb494bcb03ad81a599b4998b17d86c6ef019d280
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:~0.42.0":
   version: 0.42.0
   resolution: "markdownlint@npm:0.42.0"
   dependencies:
@@ -3642,6 +3660,13 @@ __metadata:
   version: 2.8.6
   resolution: "re2js@npm:2.8.6"
   checksum: 10/ec15087805a41e2701821dd98cd0e5b0ddc48acb615b113cef00ad69e564c2e72b05a18a06f3b642ada69f1fb58aebde2b1c0b61f116f6ca768f8dd03d74e71d
+  languageName: node
+  linkType: hard
+
+"re2js@npm:2.9.1":
+  version: 2.9.1
+  resolution: "re2js@npm:2.9.1"
+  checksum: 10/52ddfc92187544bf4e13899cca4704d7ebdcdf803a66b45cba93df0d02bd50e109a87fa3deb6f1e7d8fb30a8ac8b665f647eed7e7d4cd40b434c66ffc7ffb5a1
   languageName: node
   linkType: hard
 
